@@ -49,7 +49,7 @@ const Signup = () => {
     console.log(name, email, password, pic);
     try {
       const { data } = await axios.post(
-        "http://localhost:5000/api/user",
+        "/api/user",
         {
           name,
           email,
